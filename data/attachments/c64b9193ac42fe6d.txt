@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/55a9b22d-3a62-412a-bda7-074cf106b131' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE0OjEyOjM5Ljk0MTM1OCIsInVzZXJfaWQiOiIwODZkZjNiMC05MWQ3LTQ3ZDItOWZhMy00MGRjYjJkMGQzMmUifQ.4ZLCBbBwW2bLYslpqefHvanwtDmtASwTA3MUy7-0tIE' \
+  -H 'content-length': '166' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Resource hundred treatment marriage.","maxScore":98,"minScore":19,"description":"Huge huge first.","createdByUserId":"c57e9a85-2b4f-48f7-b491-62f8e40e52b2"}'

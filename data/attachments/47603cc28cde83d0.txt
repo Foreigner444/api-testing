@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE0OjEyOjQwLjg1MzUwNSIsInVzZXJfaWQiOiJmYTUyNWNhNi05MzUyLTQzOTAtOWJhMC0wZDFmZTMyMzRmYmQifQ.pwhkDq_hLyuP4zdNyEZDbS37ONJICjfU9Pt1Zsw6jHw' \
+  -H 'content-length': '259' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Democrat deep five the standard step.","maxScore":73,"minScore":17,"description":"Building whole adult final.","previewFileId":"17a92fca-98a6-42c5-92aa-1db6269eb0be","estimatedTime":"3 weeks","createdByUserId":"fa525ca6-9352-4390-9ba0-0d1fe3234fbd"}'

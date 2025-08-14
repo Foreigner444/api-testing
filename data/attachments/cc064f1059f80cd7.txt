@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE0OjEyOjM4LjUyNjA0MSIsInVzZXJfaWQiOiI0ZDU0ZjliNS05MjZjLTRlMzAtODY0NC0wMjExMWIzYmZhMzIifQ.-sMchaEAaJmJ6cl06ytvDroHpIWP4zZKZqy2L7Ese90' \
+  -H 'content-length': '265' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Design stuff any arm gas film alone performance.","maxScore":50,"minScore":10,"description":"Type act case it type.","previewFileId":"0a03b7ff-16ee-46ca-b8d1-1cff40d4dc4d","estimatedTime":"7 weeks","createdByUserId":"4d54f9b5-926c-4e30-8644-02111b3bfa32"}'

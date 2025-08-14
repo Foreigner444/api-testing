@@ -1,0 +1,14 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     USERS_ASSERTION:users.py:20 Check user response.
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'UserSchema' matches expected values for fields: first_name, email, middle_name, last_name
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: first_name
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''first_name'' field value equals to 'Jason'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: email
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''email'' field value equals to 'zjackson@gmail.com'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: middle_name
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''middle_name'' field value equals to 'Michael'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: last_name
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''last_name'' field value equals to 'Scott'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

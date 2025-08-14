@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE0OjEyOjQxLjEyNjUzMCIsInVzZXJfaWQiOiI5NTM1YWUyYy1jMGI0LTRlYTEtYmNkZC0zZmEwMDlmOWVjYmMifQ.IgtqpPVMH4eOePjoACkKm-H_b_wyVQauch68syE92xk' \
+  -H 'content-length': '213' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Herself have political guess now eye.","maxScore":96,"minScore":15,"orderIndex":81,"description":"Role drug take information.","estimatedTime":"2 weeks","courseId":"f612fc76-e63e-472a-b1da-feecc49abaf0"}'

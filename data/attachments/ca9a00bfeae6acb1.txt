@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE0OjEyOjM5Ljk0MTM1OCIsInVzZXJfaWQiOiIwODZkZjNiMC05MWQ3LTQ3ZDItOWZhMy00MGRjYjJkMGQzMmUifQ.4ZLCBbBwW2bLYslpqefHvanwtDmtASwTA3MUy7-0tIE' \
+  -H 'content-length': '231' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Partner travel there.","maxScore":56,"minScore":8,"description":"Be specific use.","previewFileId":"ea012d52-0c2c-420b-be38-e71c22df3306","estimatedTime":"6 weeks","createdByUserId":"086df3b0-91d7-47d2-9fa3-40dcb2d0d32e"}'
