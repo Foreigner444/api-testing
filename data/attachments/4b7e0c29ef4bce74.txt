@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/29ec6b41-43b5-4a98-ae4c-704e63fadcf6' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDExOjQ3OjIzLjcyMTcxMyIsInVzZXJfaWQiOiJjNjAxOTFlYS04YzNlLTRhNzAtOTZlMi03MzBlZTkzY2E1YzcifQ.RF2a2BUwoI_-JjLBfo-PT-bWwBs-eMNPRVDRPVibY3E' \
+  -H 'content-length': '176' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Meet any high condition over fine.","maxScore":56,"minScore":8,"description":"Base live clear leader total.","createdByUserId":"8cb34677-8c5d-43dd-bd49-dc6eab6616f4"}'

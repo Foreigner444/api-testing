@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDExOjQ3OjIyLjI4OTA2OCIsInVzZXJfaWQiOiIwYzlkZTJjYy00NTQ5LTRjMzctYTNkZi01YWZlMzMyMzU5M2YifQ.YQ7BgAsp6YJPvSS7a6fNlPIiMT98U-NtcR2v6G8GXIQ' \
+  -H 'content-length': '249' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Central weight everyone move.","maxScore":65,"minScore":16,"description":"None test decide mention.","previewFileId":"c0bedb58-acb6-471f-9de8-c25f8ff7d951","estimatedTime":"9 weeks","createdByUserId":"0c9de2cc-4549-4c37-a3df-5afe3323593f"}'

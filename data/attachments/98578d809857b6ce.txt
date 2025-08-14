@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDExOjQ3OjIzLjQ0ODkxNiIsInVzZXJfaWQiOiJjNjA2NmY5My03N2ExLTQxMWUtOTAwMi00OWUzMjEyNTRkZWMifQ.SljjGrxylyPfQLFPjOptKwx-kPSIKcHrmsRdPvYZiMQ' \
+  -H 'content-length': '257' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Cover manage down choice up listen.","maxScore":84,"minScore":12,"description":"Wish rule statement ground.","previewFileId":"d6b374fa-2378-457e-b1aa-1e7adb3c025d","estimatedTime":"8 weeks","createdByUserId":"c6066f93-77a1-411e-9002-49e321254dec"}'
