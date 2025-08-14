@@ -10,7 +10,7 @@ on:
 
 jobs:
   run-tests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Check out repository
@@ -54,12 +54,20 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
+      - name: Copy history to results
+        if: always()
+        run: |
+          if [ -d "gh-pages/history" ]; then
+            cp -r gh-pages/history allure_results/
+          fi
+
       - name: Generate allure report with history
         uses: simple-elf/allure-report-action@v1.13
         if: always()
         with:
-          allure_results: build/allure-results
-          allure_history: allure-history
+          allure_results: allure_results
+          allure_history: history
+          allure_report: allure-report
 
       - name: Deploy to GitHub Pages
         if: always()
@@ -67,4 +75,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report
