@@ -54,12 +54,12 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Copy history to results
-        if: always()
-        run: |
-          if [ -d "gh-pages/history" ]; then
-            cp -r gh-pages/history allure_results/
-          fi
+#      - name: Copy history to results
+#        if: always()
+#        run: |
+#          if [ -d "gh-pages/history" ]; then
+#            cp -r gh-pages/history allure_results/
+#          fi
 
       - name: Generate allure report with history
         uses: simple-elf/allure-report-action@v1.13
@@ -67,7 +67,6 @@ jobs:
         with:
           allure_results: allure_results
           allure_history: history
-          allure_report: allure-report
 
       - name: Deploy to GitHub Pages
         if: always()
