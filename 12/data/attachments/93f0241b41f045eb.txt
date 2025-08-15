@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjI0OjAyLjkyODQ0OCIsInVzZXJfaWQiOiJlOTc5OGMyZS03OTg5LTRiNTEtODdiYS1kN2YzMWI5OTYyNWQifQ.pvM7xa6PnGHP2ByPRJPKC4ZnUoPk9KU2OtdRf8JA0jw' \
+  -H 'content-length': '250' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Instead begin off audience start.","maxScore":55,"minScore":23,"description":"If garden old without.","previewFileId":"e2b1b866-7b85-4f4f-aa15-a953dd29649e","estimatedTime":"9 weeks","createdByUserId":"e9798c2e-7989-4b51-87ba-d7f31b99625d"}'

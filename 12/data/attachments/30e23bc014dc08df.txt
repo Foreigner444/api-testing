@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjI0OjA0LjExNjAyMiIsInVzZXJfaWQiOiJlNzRkNGNmMi1iYTU5LTRlOGMtOTcxZi1kYjdlMGU0OWE2M2IifQ.BNj-0LgbnatGhEqDvns7vccmCQGszdxBcG9uurMI-tk' \
+  -H 'content-length': '232' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"My realize sign.","maxScore":77,"minScore":21,"description":"Line open particular.","previewFileId":"96301873-e571-42b6-a418-a366989b6ed5","estimatedTime":"4 weeks","createdByUserId":"e74d4cf2-ba59-4e8c-971f-db7e0e49a63b"}'

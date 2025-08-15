@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjI0OjAzLjIwMTM0MyIsInVzZXJfaWQiOiI4ODc2ZTRiYy1lZjk3LTQ2MDAtOTAxZi04YWUxYzRmZDJmYTcifQ.MYOwkkmf1dtrKiNd69O4_0WMIxZzAC6chEPlC6AJ1Ew' \
+  -H 'content-length': '235' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Buy writer member right.","maxScore":68,"minScore":25,"description":"Look raise over.","previewFileId":"8537bbaf-568e-4eb3-8437-ea21f06b9833","estimatedTime":"6 weeks","createdByUserId":"8876e4bc-ef97-4600-901f-8ae1c4fd2fa7"}'

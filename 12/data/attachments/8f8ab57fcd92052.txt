@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjI0OjA0LjExNjAyMiIsInVzZXJfaWQiOiJlNzRkNGNmMi1iYTU5LTRlOGMtOTcxZi1kYjdlMGU0OWE2M2IifQ.BNj-0LgbnatGhEqDvns7vccmCQGszdxBcG9uurMI-tk' \
+  -H 'content-length': '206' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Throughout type form forget.","maxScore":50,"minScore":13,"orderIndex":83,"description":"According able position send.","estimatedTime":"8 weeks","courseId":"0b0cf348-3794-4e99-a1ff-366fc2e107d4"}'

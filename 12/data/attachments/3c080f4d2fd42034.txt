@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: PATCH http://localhost:8000/api/v1/exercises/99d69561-1deb-4428-a40a-c5fadb02ded9
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK PATCH from http://localhost:8000/api/v1/exercises/99d69561-1deb-4428-a40a-c5fadb02ded9
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     EXERCISE_ASSERTIONS:exercises.py:67 Update exercise
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'UpdateExerciseRequestSchema' matches expected values for fields: title
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: title
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''title'' field value equals to 'Updated exercise title'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.
+INFO     EXERCISE_ASSERTIONS:exercises.py:79 Verify exercise updated
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: GET http://localhost:8000/api/v1/exercises/99d69561-1deb-4428-a40a-c5fadb02ded9
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK GET from http://localhost:8000/api/v1/exercises/99d69561-1deb-4428-a40a-c5fadb02ded9
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.

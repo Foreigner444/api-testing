@@ -1,0 +1,29 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: GET http://localhost:8000/api/v1/exercises/6d04d017-3b28-4cb4-af04-f842020b4149
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK GET from http://localhost:8000/api/v1/exercises/6d04d017-3b28-4cb4-af04-f842020b4149
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     EXERCISE_ASSERTIONS:exercises.py:58 Verify get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:46 Verify exercise
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'ExerciseSchema' matches expected values for fields: title, max_score, min_score, order_index, description, estimated_time, id, course_id
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: title
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''title'' field value equals to 'Middle camera eye current.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: max_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''max_score'' field value equals to '98'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: min_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''min_score'' field value equals to '4'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: order_index
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''order_index'' field value equals to '76'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: description
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''description'' field value equals to 'Company health past since.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: estimated_time
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''estimated_time'' field value equals to '10 weeks'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''id'' field value equals to '6d04d017-3b28-4cb4-af04-f842020b4149'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: course_id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''course_id'' field value equals to '845297da-6fd9-4d80-9bf3-69c1a8665e8c'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

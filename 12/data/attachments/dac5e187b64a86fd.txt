@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjI0OjA2LjQ4NDY1NSIsInVzZXJfaWQiOiI1MDk4NTEwYi1iODU1LTRlMWUtYTk4Ni0xMjk4NDNhMGZhZTgifQ.JJF7oBiKFbub2zouaTE5IPMqVM1GVcQs92jnoY-rZRo' \
+  -H 'content-length': '197' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Order group these evening.","maxScore":61,"minScore":4,"orderIndex":15,"description":"Tell hot common sister.","estimatedTime":"5 weeks","courseId":"d53d4228-e5b5-4846-9348-cc2497e9a5f4"}'
