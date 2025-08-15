@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/91ee86fb-9b19-4410-afd6-0e0215de6c3a' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjE3OjA2LjI3MTY3MyIsInVzZXJfaWQiOiJhM2I5MmVkNS0yMDg4LTRhNDAtOTI1ZC0wYjRhZTU4NWE5NGIifQ.KUPrGEY4nmxGjSIZvEh0JG3JC3BCHgF8d_JVRm0wxcM' \
+  -H 'content-length': '143' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Updated exercise title","maxScore":54,"minScore":2,"orderIndex":69,"description":"Special chair pull he.","estimatedTime":"10 weeks"}'

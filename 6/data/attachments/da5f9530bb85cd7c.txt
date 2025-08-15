@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjE3OjA1Ljk5NzY0OSIsInVzZXJfaWQiOiIyNGNjODQwNi1kZjk0LTQ1NzktYjNmMS0wZDlkOTEyYWU4YzgifQ.1yZlbKYXCTThey4T_SBQ9cvE30JEQcrxOfl1Rsh6-xo' \
+  -H 'content-length': '264' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Worker improve seven rate girl reason include.","maxScore":100,"minScore":3,"description":"Wish stock call agency.","previewFileId":"8c1a9c26-fa7c-4f6b-bde2-32eeb0c3f1e1","estimatedTime":"2 weeks","createdByUserId":"24cc8406-df94-4579-b3f1-0d9d912ae8c8"}'

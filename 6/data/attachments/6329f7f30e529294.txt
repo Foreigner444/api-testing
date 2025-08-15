@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjE3OjA0LjgyMjM3OCIsInVzZXJfaWQiOiJkMWZmM2Y3Yy1kZGQ0LTRjNDUtYmE1Zi0wYjA3YjdhYzIxZGMifQ.c_oaHr1Ernc6E143_M4l-S3Yos4eTTqIz4GoUZZ9C5A' \
+  -H 'content-length': '235' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Student role produce.","maxScore":53,"minScore":22,"description":"Help off agree its.","previewFileId":"e03a3386-66d9-4a54-9b4d-284733b280f1","estimatedTime":"5 weeks","createdByUserId":"d1ff3f7c-ddd4-4c45-ba5f-0b07b7ac21dc"}'

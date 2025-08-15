@@ -1,0 +1,31 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: GET http://localhost:8000/api/v1/courses?userId=cdb2fed9-e5f7-4690-b38f-9a1341f2c98d
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK GET from http://localhost:8000/api/v1/courses?userId=cdb2fed9-e5f7-4690-b38f-9a1341f2c98d
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     COURSES_ASSERTION:courses.py:60 Verify get courses response
+INFO     BASE_ASSERTIONS:base.py:56 Check that length of 'courses' equals to '1'.
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'CourseSchema' matches expected values for fields: id, title, max_score, min_score, description, preview_file, estimated_time, created_by_user_id
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''id'' field value equals to 'd37eeee9-298d-424f-85b2-7e5d8ca59070'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: title
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''title'' field value equals to 'This trade source moment us short.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: max_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''max_score'' field value equals to '84'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: min_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''min_score'' field value equals to '5'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: description
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''description'' field value equals to 'Reality song century kind.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: preview_file
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''preview_file'' field value equals to 'id='96bc53a4-0c06-4182-a056-fe27ef0168c6' filename='079cbfc0.png' directory='test' url=HttpUrl('http://localhost:8000/static/test/079cbfc0.png')'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: estimated_time
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''estimated_time'' field value equals to '6 weeks'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: created_by_user_id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''created_by_user_id'' field value equals to 'id='cdb2fed9-e5f7-4690-b38f-9a1341f2c98d' email='marksdana@example.com' last_name='Hays' first_name='Carl' middle_name='Corey''.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

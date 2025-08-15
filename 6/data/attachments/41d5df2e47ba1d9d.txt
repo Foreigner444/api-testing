@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     COURSES_ASSERTION:courses.py:21 Check create course response
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'CreateCourseRequestSchema' matches expected values for fields: estimated_time, min_score, max_score, title, description
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: estimated_time
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''estimated_time'' field value equals to '5 weeks'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: min_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''min_score'' field value equals to '22'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: max_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''max_score'' field value equals to '53'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: title
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''title'' field value equals to 'Student role produce.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: description
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''description'' field value equals to 'Help off agree its.'.
+INFO     BASE_ASSERTIONS:base.py:31 Check that 'created_by_user_id' field value equals to 'd1ff3f7c-ddd4-4c45-ba5f-0b07b7ac21dc'.
+INFO     BASE_ASSERTIONS:base.py:31 Check that 'preview_file_id' field value equals to 'e03a3386-66d9-4a54-9b4d-284733b280f1'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

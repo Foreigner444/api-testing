@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjE3OjA1LjA5NTI4NCIsInVzZXJfaWQiOiIzYzliMTBmOS1kZjRkLTQ1MWQtYmIyNC02M2U1YjYwYjYxZmMifQ.N3Kc_S00MK5K4Z0ejAIBcfhFxorHV-T56JF_ijSK8Sg' \
+  -H 'content-length': '259' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Responsibility everybody today summer.","maxScore":71,"minScore":23,"description":"Thousand nor money choice.","previewFileId":"e9db5909-0b3a-4a98-9397-16a477f91ea7","estimatedTime":"5 weeks","createdByUserId":"3c9b10f9-df4d-451d-bb24-63e5b60b61fc"}'
