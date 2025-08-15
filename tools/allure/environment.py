@@ -3,8 +3,6 @@ import sys
 from config import settings
 
 
-
-
 def create_allure_environment_file():
     items = [f"{key} = {value}" for key, value in settings.model_dump().items()]
     items.append(f"os_info = {platform.system()}")
