@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjM1OjAwLjc1NTU2OCIsInVzZXJfaWQiOiIxZGY5ZTRjMy0yYzU4LTQ0YWQtODE1Ny1jMDY3NzQwMWU1NDEifQ.J91McNQMZ1Vw2E2o_Bw476m4Su3NXhX6zbK8LX1jEDU' \
+  -H 'content-length': '196' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Whole plan old yes.","maxScore":61,"minScore":15,"orderIndex":60,"description":"Project environmental main.","estimatedTime":"10 weeks","courseId":"3abe1279-8c94-494c-b74d-2d7e190f67db"}'

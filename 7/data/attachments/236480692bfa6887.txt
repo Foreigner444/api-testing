@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjM0OjU3LjIzMzQ3NCIsInVzZXJfaWQiOiI0YTVjMDRiOS0zMDZjLTRkOWMtOTMxYi05MzlkYjE3YzEzNzgifQ.q8eh2ElfNGTfDxQNgT1yCgTGMMgRJiioaSPPNpnfS60' \
+  -H 'content-length': '254' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Occur floor attorney pattern security.","maxScore":91,"minScore":30,"description":"Best boy despite leg.","previewFileId":"11996cd1-67c4-4242-8d50-439a285d7852","estimatedTime":"2 weeks","createdByUserId":"4a5c04b9-306c-4d9c-931b-939db17c1378"}'

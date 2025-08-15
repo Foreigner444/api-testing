@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjM0OjU4LjY1MzYwOCIsInVzZXJfaWQiOiJmOWQ2YzlhZC1iMjRmLTQyMTQtYjRiZi0xYjVjMTljY2NhYWQifQ.cwMYkXKtRnbyyt1Wfa7Ev3gPAfIsPjKNwccU7oBZihE' \
+  -H 'content-length': '243' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Continue accept program.","maxScore":55,"minScore":27,"description":"Increase all friend eye.","previewFileId":"6262879f-15fd-4eb5-9e23-5c847426769f","estimatedTime":"9 weeks","createdByUserId":"f9d6c9ad-b24f-4214-b4bf-1b5c19cccaad"}'

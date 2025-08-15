@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjM0OjU5LjU2MzM1OSIsInVzZXJfaWQiOiIzNTViYzRiMi1jYjcxLTQ0N2ItYmJlYy1lMjIyNDZjNmUxNDYifQ.l-w8l8JZ8xttvaols4xMbdMMLYF_KUWaxQLxA2KRZ98' \
+  -H 'content-length': '235' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"But leave his nor.","maxScore":81,"minScore":28,"description":"Speech note her seven.","previewFileId":"2004ba9e-a153-4df7-a44c-c859d282d14e","estimatedTime":"8 weeks","createdByUserId":"355bc4b2-cb71-447b-bbec-e22246c6e146"}'

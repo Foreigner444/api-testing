@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/e2456e59-f2b0-4927-9b83-a6e2d4ccdcf2' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjM0OjU4LjY1MzYwOCIsInVzZXJfaWQiOiJmOWQ2YzlhZC1iMjRmLTQyMTQtYjRiZi0xYjVjMTljY2NhYWQifQ.cwMYkXKtRnbyyt1Wfa7Ev3gPAfIsPjKNwccU7oBZihE' \
+  -H 'content-length': '187' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Back management campaign police garden surface.","maxScore":79,"minScore":4,"description":"Modern allow prevent avoid.","createdByUserId":"067add3d-b35e-4122-a73c-2388d874ef31"}'
