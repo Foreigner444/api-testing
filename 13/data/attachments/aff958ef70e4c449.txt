@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjM1OjQ4LjA5Mjc0NSIsInVzZXJfaWQiOiIxYjYwMzA0MS01NjBiLTQyYWEtOThiMy05YThjZGI3NTE2NjIifQ.SEGbM3rg8M8mzAl0WHy3CyInz4kpuPTJ5tIjIQQ0fPI' \
+  -H 'content-length': '196' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Often thousand dream fish.","maxScore":94,"minScore":27,"orderIndex":5,"description":"Require see main help.","estimatedTime":"3 weeks","courseId":"71672dd7-939b-4169-b4bf-e4063596d742"}'

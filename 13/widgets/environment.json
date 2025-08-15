@@ -1,0 +1,1 @@
+[{"values":["{'img_png_file': PosixPath('testdata/files/test.svg')}"],"name":"test_data"},{"values":["{'url': HttpUrl('http://localhost:8000/'), 'timeout': 100.0}"],"name":"http_client"},{"values":["allure-results"],"name":"allure_results_dir"},{"values":["Linux"],"name":"os_info"},{"values":["3.12.11 (main, Jun  4 2025, 04:14:37) [GCC 11.4.0]"],"name":"python_version"}]

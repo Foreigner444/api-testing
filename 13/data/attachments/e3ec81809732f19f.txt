@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/33c20f7c-cfd5-4cdb-9243-860b2d658f78' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjM1OjQ3LjQwMDc2NSIsInVzZXJfaWQiOiJhZDAyYWVhYi04ZTJiLTRmOTMtYWU0Yi0wMWZiODNkZDM3N2UifQ.JrSMrxRcuadnT2-k9Q-DOAa0wiR816HHV3AaGCOyGAw' \
+  -H 'content-length': '167' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Foot include up me project.","maxScore":65,"minScore":2,"description":"These bed rather under let.","createdByUserId":"ff1e4e42-f081-4a41-b3f1-d4941be4c4e7"}'

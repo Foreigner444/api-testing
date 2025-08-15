@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjM1OjQ5LjQ1NTQwOSIsInVzZXJfaWQiOiJiMDgyYWEwMC05YWUzLTRiZWYtYTVjMS05YzExYWM4YzEyNDAifQ.smCnz_aUCXqCKgrePMLkZnatjsGkbeOb0LByZeV3q9g' \
+  -H 'content-length': '192' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Loss or guy use.","maxScore":83,"minScore":27,"orderIndex":89,"description":"Yet employee red blood red.","estimatedTime":"6 weeks","courseId":"17fb83e9-e2b9-4abd-a4c8-0ccc173c68ae"}'

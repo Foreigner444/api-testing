@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjM1OjQ4LjA5Mjc0NSIsInVzZXJfaWQiOiIxYjYwMzA0MS01NjBiLTQyYWEtOThiMy05YThjZGI3NTE2NjIifQ.SEGbM3rg8M8mzAl0WHy3CyInz4kpuPTJ5tIjIQQ0fPI' \
+  -H 'content-length': '253' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Official thing dark much foot.","maxScore":83,"minScore":25,"description":"What stage follow sing hand.","previewFileId":"936ea065-8340-46b9-a024-e5d5e1e8bd12","estimatedTime":"1 weeks","createdByUserId":"1b603041-560b-42aa-98b3-9a8cdb751662"}'

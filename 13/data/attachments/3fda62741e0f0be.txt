@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjM1OjQ2LjcxMTY3MyIsInVzZXJfaWQiOiI0MjJjOTQyMS1mNTM4LTRlNmYtYjdhMS0zYmY4YmNiZGI3NTkifQ.EqYIjbat-aeaJ8ZmE2tk0v2r64ztqnYN3MPm_RsKlcw' \
+  -H 'content-length': '246' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Weight either defense.","maxScore":68,"minScore":12,"description":"Believe water Democrat dark.","previewFileId":"49cad430-3352-4288-83b1-2e6a6dc83b65","estimatedTime":"10 weeks","createdByUserId":"422c9421-f538-4e6f-b7a1-3bf8bcbdb759"}'

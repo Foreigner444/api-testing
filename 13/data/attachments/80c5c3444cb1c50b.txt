@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjM1OjQ3LjQwMDc2NSIsInVzZXJfaWQiOiJhZDAyYWVhYi04ZTJiLTRmOTMtYWU0Yi0wMWZiODNkZDM3N2UifQ.JrSMrxRcuadnT2-k9Q-DOAa0wiR816HHV3AaGCOyGAw' \
+  -H 'content-length': '268' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Heavy behind court but require radio remember.","maxScore":78,"minScore":24,"description":"Those agent soldier choose.","previewFileId":"7e4db524-c288-4da0-941b-0a790af0b696","estimatedTime":"8 weeks","createdByUserId":"ad02aeab-8e2b-4f93-ae4b-01fb83dd377e"}'
