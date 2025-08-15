@@ -43,12 +43,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run API tests with pytest and generate allure results
-        env:
-          HTTP_CLIENT.URL: http://127.0.0.1:8000
-          HTTP_CLIENT.TIMEOUT: 10.0
-          TEST_DATA.IMG_PNG_FILE: ./testdata/files/test.svg
         run: |
-          pytest -m regression --alluredir=allure_results --numprocesses=2
+          pytest -m regression --alluredir=allure-results --numprocesses=2
 
       - name: Get allure history
         uses: actions/checkout@v5
@@ -69,7 +65,7 @@ jobs:
         uses: simple-elf/allure-report-action@v1.13
         if: always()
         with:
-          allure_results: allure_results
+          allure_results: allure-results
           allure_history: allure-history
 
       - name: Deploy to GitHub Pages
