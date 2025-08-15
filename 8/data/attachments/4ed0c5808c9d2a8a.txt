@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjQ5OjQ1LjIwNzAzNiIsInVzZXJfaWQiOiI5YTk2ZWYyZS00NTg4LTQ4MjEtODc1NS1kODY5YWJmNGI2NTcifQ.3INVXVzxlT2LiJXf1MI0H8mdPpbQ72cuRdPpUO1k5sg' \
+  -H 'content-length': '257' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Conference laugh expect keep board.","maxScore":59,"minScore":17,"description":"Generation take space week.","previewFileId":"4d3c639e-bfc5-469e-a5f0-6d183ceb4359","estimatedTime":"7 weeks","createdByUserId":"9a96ef2e-4588-4821-8755-d869abf4b657"}'

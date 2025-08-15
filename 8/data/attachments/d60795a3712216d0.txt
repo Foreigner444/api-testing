@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/86af98ca-4a3d-4700-9791-7bfdac17e4d8' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjQ5OjQ2LjYzNzY3NSIsInVzZXJfaWQiOiIxMTFkMWEzZC0xNjZmLTQ5ZWQtOGI5ZC1jNzI4NjFiMWQ1OWYifQ.y79jNCK9pw3EYczrbbFy1O93Ihmw5WRGMYj95vDSdu4' \
+  -H 'content-length': '163' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Upon hard part talk.","maxScore":71,"minScore":16,"description":"Culture act claim size throw.","createdByUserId":"3e4fd958-1f76-4795-96be-e1a2cea6ba43"}'

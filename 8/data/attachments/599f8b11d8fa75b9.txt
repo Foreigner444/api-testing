@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: GET http://localhost:8000/api/v1/exercises?courseId=79ce4d7f-b200-4a31-a256-7945c4026ae6
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK GET from http://localhost:8000/api/v1/exercises?courseId=79ce4d7f-b200-4a31-a256-7945c4026ae6
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     EXERCISE_ASSERTIONS:exercises.py:103 Verify of get exercises response
+INFO     EXERCISE_ASSERTIONS:exercises.py:106 Verifying number of exercises. Expected: 1
+INFO     BASE_ASSERTIONS:base.py:56 Check that length of 'exercises' equals to '1'.
+INFO     EXERCISE_ASSERTIONS:exercises.py:113 Verifying 1 exercises
+INFO     EXERCISE_ASSERTIONS:exercises.py:116 Verifying exercise 1: ID 7994954a-ee03-42cd-8e2a-40acc8b39cb2
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'ExerciseSchema' matches expected values for fields: title, max_score, min_score, order_index, description, estimated_time, id, course_id
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: title
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''title'' field value equals to 'Network similar also its family player better detail.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: max_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''max_score'' field value equals to '52'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: min_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''min_score'' field value equals to '28'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: order_index
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''order_index'' field value equals to '94'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: description
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''description'' field value equals to 'Value laugh score likely.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: estimated_time
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''estimated_time'' field value equals to '5 weeks'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''id'' field value equals to '7994954a-ee03-42cd-8e2a-40acc8b39cb2'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: course_id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''course_id'' field value equals to '79ce4d7f-b200-4a31-a256-7945c4026ae6'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

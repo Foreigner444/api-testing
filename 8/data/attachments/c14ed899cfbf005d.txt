@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: PATCH http://localhost:8000/api/v1/courses/86af98ca-4a3d-4700-9791-7bfdac17e4d8
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK PATCH from http://localhost:8000/api/v1/courses/86af98ca-4a3d-4700-9791-7bfdac17e4d8
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     COURSES_ASSERTION:courses.py:47 Verify update courses response
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'UpdateCourseRequestSchema' matches expected values for fields: max_score, description, title, min_score
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: max_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''max_score'' field value equals to '71'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: description
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''description'' field value equals to 'Culture act claim size throw.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: title
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''title'' field value equals to 'Upon hard part talk.'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: min_score
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''min_score'' field value equals to '16'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

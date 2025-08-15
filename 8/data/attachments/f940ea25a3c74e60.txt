@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjQ5OjQ2LjYzNzY3NSIsInVzZXJfaWQiOiIxMTFkMWEzZC0xNjZmLTQ5ZWQtOGI5ZC1jNzI4NjFiMWQ1OWYifQ.y79jNCK9pw3EYczrbbFy1O93Ihmw5WRGMYj95vDSdu4' \
+  -H 'content-length': '250' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Budget three glass collection perform.","maxScore":64,"minScore":21,"description":"Age senior model.","previewFileId":"b46ad09e-2fec-4fa4-89db-065ff56fb232","estimatedTime":"2 weeks","createdByUserId":"111d1a3d-166f-49ed-8b9d-c72861b1d59f"}'

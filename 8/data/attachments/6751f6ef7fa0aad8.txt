@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA3OjQ5OjQ2LjM2NDUwOCIsInVzZXJfaWQiOiI4NWNhNzRkYS0wZTMyLTQxNWItOTJhNC1hZTkwZjljN2YyYTQifQ.NhYCiGMVZOGoGaMPZoX1Kmg7a4pTJGe872no3o4RAgw' \
+  -H 'content-length': '261' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Far American scene person accept federal.","maxScore":60,"minScore":24,"description":"Plant to sister sea yes.","previewFileId":"0d453f18-69b0-44d4-9cc4-a2c957bd0b7f","estimatedTime":"10 weeks","createdByUserId":"85ca74da-0e32-415b-92a4-ae90f9c7f2a4"}'
