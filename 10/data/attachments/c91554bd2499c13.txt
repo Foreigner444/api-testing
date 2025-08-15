@@ -1,0 +1,17 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     EXERCISE_ASSERTIONS:exercises.py:31 Create exercise
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'CreateExerciseRequestSchema' matches expected values for fields: course_id
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: course_id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''course_id'' field value equals to '6162f4bf-c96e-4c99-ab38-82579f06477e'.
+INFO     BASE_ASSERTIONS:base.py:31 Check that 'course_id' field value equals to '6162f4bf-c96e-4c99-ab38-82579f06477e'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host': '127.0.0.1:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjA2OjE5Ljg2MjgyMSIsInVzZXJfaWQiOiJkYTYyZmQ4Ny1iM2Y1LTRlN2QtOGUwOC05ZGM1YjdhZTA1OGUifQ.BoeJN8vSO90RZqEoOeqjsaYqw1RBCuVi9qFvNI6RCuI' \
+  -H 'content-length': '214' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Fight reveal hold near collection thus ever.","maxScore":94,"minScore":19,"orderIndex":88,"description":"Finally various bill.","estimatedTime":"6 weeks","courseId":"f94c9abb-68aa-45c7-a176-ca5df92bc0a3"}'

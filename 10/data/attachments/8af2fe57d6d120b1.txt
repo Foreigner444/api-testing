@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: GET http://127.0.0.1:8000/api/v1/files/d380666c-03c5-44fa-87da-423a0b159985
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK GET from http://127.0.0.1:8000/api/v1/files/d380666c-03c5-44fa-87da-423a0b159985
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     FILES_ASSERTION:files.py:58 Check get file response.
+INFO     FILES_ASSERTION:files.py:47 Check file.
+INFO     BASE_ASSERTIONS:base.py:83 Verify that model 'FileSchema' matches expected values for fields: id, filename, directory, url
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: id
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''id'' field value equals to 'd380666c-03c5-44fa-87da-423a0b159985'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: filename
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''filename'' field value equals to '1b6e8ad3.png'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: directory
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''directory'' field value equals to 'test'.
+INFO     BASE_ASSERTIONS:base.py:87 Checking field: url
+INFO     BASE_ASSERTIONS:base.py:31 Check that ''url'' field value equals to 'http://localhost:8000/static/test/1b6e8ad3.png'.
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

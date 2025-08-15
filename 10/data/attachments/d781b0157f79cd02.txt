@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host': '127.0.0.1:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjA2OjE4LjM4NzM3MiIsInVzZXJfaWQiOiI2OWQ1YTk0MS04YzQ2LTRmZTQtYWI5MS04MzllMzc0N2M2MmYifQ.k6fvZKgohkl3aRL25A2TWef1liyBkteykOHQjSHRDtM' \
+  -H 'content-length': '242' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Live example vote contain western.","maxScore":58,"minScore":17,"description":"Blue bag for.","previewFileId":"52142058-2730-43f6-bc01-3ae2953f27e7","estimatedTime":"9 weeks","createdByUserId":"69d5a941-8c46-4fe4-ab91-839e3747c62f"}'

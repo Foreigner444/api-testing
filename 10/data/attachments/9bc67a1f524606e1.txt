@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host': '127.0.0.1:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjA2OjE3LjQ3MTkxOCIsInVzZXJfaWQiOiI4NWE2YTdlZi02NzUyLTRmM2QtYjRmZS1mY2QxOTZiNGRhMzEifQ.fmCrpPkAU798CmJh5YDg447AXPQnae_1LYfaRcCRLe0' \
+  -H 'content-length': '247' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Maybe let natural history.","maxScore":67,"minScore":12,"description":"Such quite people soldier.","previewFileId":"a82fa2aa-d6f1-424a-a143-d5367ffa907c","estimatedTime":"6 weeks","createdByUserId":"85a6a7ef-6752-4f3d-b4fe-fcd196b4da31"}'

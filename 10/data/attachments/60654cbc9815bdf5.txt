@@ -1,0 +1,7 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '200'.
+INFO     LOGIN_ASSERTION:login.py:16 Check login response
+INFO     SCHEMA_ASSERTION:schema.py:13 Validating JSON schema.

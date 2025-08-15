@@ -1,0 +1,9 @@
+curl -X 'POST' 'http://127.0.0.1:8000/api/v1/users' \
+  -H 'host': '127.0.0.1:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'content-length': '119' \
+  -H 'content-type': 'application/json' \
+  -d '{"email":"rwilkins@example.com","password":"8_V2OSgB@3","lastName":"Floyd","firstName":"Michael","middleName":"Steven"}'

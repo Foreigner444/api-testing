@@ -1,0 +1,47 @@
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: POST http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 200 OK POST from http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:17 Request: GET http://127.0.0.1:8000/api/v1/files/incorrect_file_id
+INFO     HTTP_LOGGER:event_hooks.py:31 Response: 422 Unprocessable Entity GET from http://127.0.0.1:8000/api/v1/files/incorrect_file_id
+INFO     BASE_ASSERTIONS:base.py:15 Check that response status code equal to '422'.
+INFO     ERRORS_ASSERTION:error.py:79 Validating error for field 'file_id'. Type: uuid_parsing, Input: incorrect_file_id
+INFO     ERRORS_ASSERTION:error.py:59 Building expected validation error response
+DEBUG    ERRORS_ASSERTION:error.py:94 Expected error: {
+  "details": [
+    {
+      "type": "uuid_parsing",
+      "input": "incorrect_file_id",
+      "context": {
+        "error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"
+      },
+      "message": "Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+      "location": [
+        "path",
+        "file_id"
+      ]
+    }
+  ]
+}
+DEBUG    ERRORS_ASSERTION:error.py:95 Actual error: {
+  "details": [
+    {
+      "type": "uuid_parsing",
+      "input": "incorrect_file_id",
+      "context": {
+        "error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"
+      },
+      "message": "Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+      "location": [
+        "path",
+        "file_id"
+      ]
+    }
+  ]
+}
+INFO     ERRORS_ASSERTION:error.py:35 Verify validation error response
+INFO     BASE_ASSERTIONS:base.py:56 Check that length of 'details' equals to '1'.
+INFO     ERRORS_ASSERTION:error.py:19 Verify validation error
+INFO     ERRORS_ASSERTION:error.py:97 Validation error matches expected

@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://127.0.0.1:8000/api/v1/courses/00f6921e-b99e-46ab-baec-a2e3053c4ea8' \
+  -H 'host': '127.0.0.1:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjA2OjE3LjQ3MTkxOCIsInVzZXJfaWQiOiI4NWE2YTdlZi02NzUyLTRmM2QtYjRmZS1mY2QxOTZiNGRhMzEifQ.fmCrpPkAU798CmJh5YDg447AXPQnae_1LYfaRcCRLe0' \
+  -H 'content-length': '168' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Common dinner own heart blue mention.","maxScore":69,"minScore":19,"description":"My stop resource.","createdByUserId":"eb97ed34-19f8-4da6-863a-315f783f137c"}'
