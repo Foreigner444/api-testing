@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjAwOjA2LjU2Nzc2NSIsInVzZXJfaWQiOiIwODM5NDNlZC1mMGJhLTQ5NmEtOTg0Zi1hYzIwNzc1ZjM2MWQifQ.XMAe6TyKs0T3pCNJRe0p4trUhRt5eRqIDIJ0gTP4yyI' \
+  -H 'content-length': '193' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Tax just reason.","maxScore":75,"minScore":24,"orderIndex":59,"description":"Safe set score road pattern.","estimatedTime":"2 weeks","courseId":"168b6b30-93d9-42ca-a7e7-7b535b2bd900"}'

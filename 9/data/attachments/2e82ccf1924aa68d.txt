@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/b15246da-d9cc-4855-8f10-b8f398a7d3d1' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjAwOjA1LjY1NDcyOCIsInVzZXJfaWQiOiJkOGE5MmE2Yi1hZTA1LTQ5NGItYjY3YS1iNGJlMWY1MzVjZDEifQ.Rg6xes_fUJNEBprLq11IEdIkgh75gOdgHiW0TpbEMpE' \
+  -H 'content-length': '164' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Space effect stock federal.","maxScore":59,"minScore":1,"description":"Set somebody fill class.","createdByUserId":"e7160e01-3a28-4ded-a4f9-57b7d4c84ec8"}'

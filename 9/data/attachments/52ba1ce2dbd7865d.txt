@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjAwOjA2Ljg0MjQxNSIsInVzZXJfaWQiOiI2OTIwNDM3Ni03YjcxLTRlMGUtYTU3Mi1jMWQ5ZDhkYTU0ZTQifQ._u92eaDdOvKoB3WT1AQEi1zzYBwohXxTPtAqxzJUmhw' \
+  -H 'content-length': '212' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Many meet past task coach child strategy.","maxScore":78,"minScore":11,"orderIndex":72,"description":"Computer before throw.","estimatedTime":"4 weeks","courseId":"71b072b0-fa2b-4446-b8b9-7aa6d6b81f71"}'

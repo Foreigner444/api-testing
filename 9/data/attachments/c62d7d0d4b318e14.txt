@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjAwOjA1LjY1NDcyOCIsInVzZXJfaWQiOiJkOGE5MmE2Yi1hZTA1LTQ5NGItYjY3YS1iNGJlMWY1MzVjZDEifQ.Rg6xes_fUJNEBprLq11IEdIkgh75gOdgHiW0TpbEMpE' \
+  -H 'content-length': '259' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Might generation financial subject.","maxScore":98,"minScore":27,"description":"Or exist line police hit air.","previewFileId":"2bcb2cc8-fab7-443a-914c-06906f6896f7","estimatedTime":"8 weeks","createdByUserId":"d8a92a6b-ae05-494b-b67a-b4be1f535cd1"}'

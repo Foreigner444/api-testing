@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+  -H 'host': 'localhost:8000' \
+  -H 'accept': '*/*' \
+  -H 'accept-encoding': 'gzip, deflate' \
+  -H 'connection': 'keep-alive' \
+  -H 'user-agent': 'python-httpx/0.28.1' \
+  -H 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDA4OjAwOjA2LjU2Nzc2NSIsInVzZXJfaWQiOiIwODM5NDNlZC1mMGJhLTQ5NmEtOTg0Zi1hYzIwNzc1ZjM2MWQifQ.XMAe6TyKs0T3pCNJRe0p4trUhRt5eRqIDIJ0gTP4yyI' \
+  -H 'content-length': '266' \
+  -H 'content-type': 'application/json' \
+  -d '{"title":"Rest culture force write artist town push day.","maxScore":69,"minScore":10,"description":"Affect begin young make.","previewFileId":"779dc3aa-fa58-4f18-b659-15d1a1b952d4","estimatedTime":"10 weeks","createdByUserId":"083943ed-f0ba-496a-984f-ac20775f361d"}'
